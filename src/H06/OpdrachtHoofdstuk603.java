@@ -15,7 +15,7 @@ public class OpdrachtHoofdstuk603 extends Applet{
     public void init(){
         a=10;
         b=20;
-        c=a+b-40;
+        c=-(a+b);
 
     }
 
