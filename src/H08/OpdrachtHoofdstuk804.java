@@ -7,7 +7,6 @@ package H08;
 import java.awt.*;
 import java.applet.*;
 import java.awt.event.*;
-import java.awt.geom.Arc2D;
 
 public class OpdrachtHoofdstuk804 extends Applet{
     TextField textvak1;
@@ -47,8 +46,6 @@ public class OpdrachtHoofdstuk804 extends Applet{
             y=Double.parseDouble(textvak2.getText());
             textvak1.setText(""+x*y);
             textvak2.setText("");
-            repaint();
-
         }
     }
 
@@ -58,8 +55,6 @@ public class OpdrachtHoofdstuk804 extends Applet{
             y=Double.parseDouble(textvak2.getText());
             textvak1.setText(""+x/y);
             textvak2.setText("");
-            repaint();
-
         }
     }
 
@@ -69,8 +64,6 @@ public class OpdrachtHoofdstuk804 extends Applet{
             y=Double.parseDouble(textvak2.getText());
             textvak1.setText(""+(x+y));
             textvak2.setText("");
-            repaint();
-
         }
     }
 
@@ -80,8 +73,6 @@ public class OpdrachtHoofdstuk804 extends Applet{
             y=Double.parseDouble(textvak2.getText());
             textvak1.setText(""+(x-y));
             textvak2.setText("");
-            repaint();
-
         }
     }
 
